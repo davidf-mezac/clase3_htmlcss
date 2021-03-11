@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    background-color: cadetblue;
+    border-top: 80px solid purple;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.col:nth-child(1){
+    width: 25%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVVvxupUsWmudgHb9joumP-qnfzw-ni5_GGw&usqp=CAU') ;
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.col:nth-child(2){
+    width: 25%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3OYDLgmXeWkJjzgnk0PWbu8DThv2md4Oc3A&usqp=CAU') ;
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.col:nth-child(3){
+    width: 25%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSprWkCptAaEOYHnT2b5QWzl_Ka76Y8YLeiIg&usqp=CAU') ;
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.col h2{
+    background-color: rgba(0, 0, 0,0.5);
+    color: azure;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.col button{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 230px;
+}
+
+.col button:hover{
+    background-color: azure;
+    color: blueviolet;
+    cursor: pointer;
+}
